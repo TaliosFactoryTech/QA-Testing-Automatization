@@ -1,0 +1,266 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-12T18:33:18.486Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4636970400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ea.SpringBasic.steps.Hooks.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 729413100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ea.SpringBasic.steps.Hooks.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1636276200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "com.ea.SpringBasic.steps.LoginSteps.iEnterDataForLoging(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "password"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 117743400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login button",
+            "match": {
+              "location": "com.ea.SpringBasic.steps.LoginSteps.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3003364600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I wait for 3000 miliseconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3000",
+                  "offset": 11
+                }
+              ],
+              "location": "com.ea.SpringBasic.steps.LoginSteps.iWaitForMiliseconds(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69346800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see the Guides page",
+            "match": {
+              "location": "com.ea.SpringBasic.steps.LoginSteps.iShouldSeeTheGuidesPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 507129500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click logout link",
+            "match": {
+              "location": "com.ea.SpringBasic.steps.LoginSteps.iClickLogoutLink()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "  This feature deals with the login functionality of the application",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/ea/SpringBasic/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-12T18:33:18.482Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4817995300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ea.SpringBasic.steps.Hooks.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Do the Optin Flow",
+        "description": "",
+        "id": "do-the-whole-opt-in-flow-via-api-and-validate-the-creation-of-a-new-prospect-with-their-correct-data;do-the-optin-flow",
+        "after": [
+          {
+            "result": {
+              "duration": 692184400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ea.SpringBasic.steps.Hooks.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4788437400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start the flow by sending the Campaign Phrase from a SenderVirtualNumber to ReceiverVirtualNumber",
+            "match": {
+              "location": "com.ea.SpringBasic.steps.OptinSteps.iStartTheFlowBySendingTheCampaignPhraseFromASenderVirtualNumberToReceiverVirtualNumber()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3314260100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I send the prospect name",
+            "match": {
+              "location": "com.ea.SpringBasic.steps.OptinSteps.iSendTheProspectName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6181760100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I send the major selected",
+            "match": {
+              "location": "com.ea.SpringBasic.steps.OptinSteps.iSendTheMajorSelected()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3308132600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I send the Statements",
+            "match": {
+              "location": "com.ea.SpringBasic.steps.OptinSteps.iSendTheStatements()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15704296700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I accept the terms and conditions",
+            "match": {
+              "location": "com.ea.SpringBasic.steps.OptinSteps.iAcceptTheTermsAndConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3712969400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Log into the BackOffice with a real user",
+            "match": {
+              "location": "com.ea.SpringBasic.steps.OptinSteps.iLogIntoTheBackOffice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2706942300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter into the Prospects Section",
+            "match": {
+              "location": "com.ea.SpringBasic.steps.OptinSteps.iEnterIntoTheProspectsSection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1510186200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see the new Prospect Created on the Backoffice",
+            "match": {
+              "location": "com.ea.SpringBasic.steps.OptinSteps.iShouldSeeTheNewProspectCreatedOnTheBackoffice()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Do the whole opt-in flow via API and validate the creation of a new prospect with their correct data",
+    "description": "",
+    "id": "do-the-whole-opt-in-flow-via-api-and-validate-the-creation-of-a-new-prospect-with-their-correct-data",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/ea/SpringBasic/features/Optin.feature",
+    "tags": []
+  }
+]
